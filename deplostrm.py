@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 
 st.title('Intermediate Class Eligibility Prediction')
 st.text_input('Enter your Name:', key='name')
